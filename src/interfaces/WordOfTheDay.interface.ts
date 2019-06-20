@@ -1,3 +1,3 @@
 export default interface WordOfTheDay {
-  wordOfTheDay: string
+  wordOfTheDay: string;
 }
