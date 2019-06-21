@@ -6,7 +6,7 @@ export class Word extends Component<WordOfTheDay> {
     const { wordOfTheDay } = this.props;
     return (
       <div>
-        <h3>{wordOfTheDay}</h3>
+        <h2>{wordOfTheDay}</h2>
       </div>
     );
   }

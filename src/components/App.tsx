@@ -47,7 +47,16 @@ export class App extends Component<
         <Word wordOfTheDay={this.state.wordOfTheDay} />
         <div>and it's definition is:</div>
         <WordDef wordDef={this.state.wordDef} />
-        <div>Information provided by WordsApi.com</div>
+        <div>
+          Information provided by{" "}
+          <a
+            href="https://wordsapi.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WordsApi.com
+          </a>
+        </div>
       </div>
     );
   }
